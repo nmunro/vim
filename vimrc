@@ -25,6 +25,7 @@ Plugin 'mhinz/vim-startify'
 Plugin 'editorconfig/editorconfig-vim'
 " Color schemes
 Plugin 'altercation/vim-colors-solarized'
+Plugin 'vim-airline/vim-airline'
 Bundle 'Valloric/YouCompleteMe'
 
 " All of your Plugins must be added before the following line
