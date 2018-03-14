@@ -26,6 +26,7 @@ Plugin 'editorconfig/editorconfig-vim'
 " Color schemes
 Plugin 'altercation/vim-colors-solarized'
 Plugin 'vim-airline/vim-airline'
+Plugin 'vim-airline/vim-airline-themes'
 Bundle 'Valloric/YouCompleteMe'
 
 " All of your Plugins must be added before the following line
@@ -113,3 +114,7 @@ map <leader>g  :YcmCompleter GoToDefinitionElseDeclaration<CR>
 " NerdTree
 map <C-n> :NERDTreeToggle<CR>
 let NERDTreeIgnore=['\.pyc$', '\~$'] "ignore files in NERDTree
+
+" Airline
+let g:airline_theme='hybrid'
+let g:airline_solarized_bg='dark'
