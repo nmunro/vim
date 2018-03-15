@@ -1,6 +1,7 @@
 " Remember leader key is: \
 set shell=/bin/bash
 set nocompatible              " be iMproved, required
+set nrformats=
 filetype off                  " required
 
 " set the runtime path to include Vundle and initialize
