@@ -6,6 +6,7 @@ filetype off                  " required
 
 " set the runtime path to include Vundle and initialize
 set rtp+=~/.vim/bundle/Vundle.vim
+set tags=~/tags
 call vundle#begin()
 
 Plugin 'VundleVim/Vundle.vim'
@@ -13,25 +14,33 @@ Plugin 'VundleVim/Vundle.vim'
 Plugin 'tpope/vim-fugitive'
 Plugin 'git://git.wincent.com/command-t.git'
 Plugin 'rstacruz/sparkup', {'rtp': 'vim/'}
+
 " Python plugins
 Plugin 'vim-scripts/indentpython'
 Plugin 'vim-syntastic/syntastic'
 Plugin 'nvie/vim-flake8'
+
 " Project navigation
 Plugin 'scrooloose/nerdtree'
 Plugin 'kien/ctrlp.vim'
 Plugin 'Lokaltog/powerline', {'rtp': 'powerline/bindings/vim/'}
 Plugin 'mhinz/vim-startify'
+
 " Editorconfig
 Plugin 'editorconfig/editorconfig-vim'
+
 " Color schemes
 Plugin 'altercation/vim-colors-solarized'
+
+" Airline
 Plugin 'vim-airline/vim-airline'
 Plugin 'vim-airline/vim-airline-themes'
+
 Bundle 'Valloric/YouCompleteMe'
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
+
 filetype plugin indent on    " required
 " To ignore plugin indent changes, instead use:
 "filetype plugin on
